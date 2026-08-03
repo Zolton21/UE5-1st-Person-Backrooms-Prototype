@@ -1,0 +1,6 @@
+# UE5 3rd Person Shooter Prototype
+This Unreal Engine 5 prototype is a third-person shooter designed to showcase core gameplay systems and AI-driven mechanics. The player character features basic locomotion, including walking and jumping, and wields a ranged weapon with a defined effective range. The goal is to eliminate all enemies in the level while managing player health; the game ends either when all enemies are defeated or the player dies.
+
+The level utilizes a pre-designed environment with NavMesh integration, allowing AI-controlled enemies to navigate the space effectively. Enemy behavior is implemented via a behavior tree system: enemies patrol until detecting the player, then pursue and engage in ranged combat when within range. Player health is managed through a dedicated component, and game state logic ensures smooth session management.
+
+Development focused on gameplay programming, with the majority of systems implemented in C++ and selected features handled via Blueprints. Key technical achievements include modular combat mechanics, AI perception and behavior logic, and maintainable game state management. This prototype demonstrates my ability to implement core gameplay systems, integrate AI-driven features, and produce functional prototypes suitable for iterative development and expansion
